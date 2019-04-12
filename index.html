@@ -10,9 +10,12 @@
     <h1 id='title'>Survey Form</h1>
     <p id='description'>Let us know how we can improve freeCodeCamp</p>
     <form id="survey-form">
+      <label for="name" id='name-label'>Name:</label>
       <input required type="text" id="name"/>
+      <label for="email" id='email-label'>Email:</label>
       <input id='email' type="email" />
-      <input id="number" type="number"/>
+      <label for="number" id='number-label'>Age:</label>
+      <input id="number" type="number" type='range' min="18" max="100"/>
 
 
     </form>
