@@ -13,10 +13,11 @@
       <label for="name" id='name-label'>Name:</label>
       <input required type="text" id="name" placeholder="Enter your name"/>
       <label for="email" id='email-label'>Email:</label>
-      <input id='email' type="email" placeholder="Enter your email"/>
+      <input required id='email' type="email" placeholder="Enter your email"/>
       <label for="number" id='number-label'>Age:</label>
       <input id="number" type="number" type='range' min="18" max="100" placeholder="Enter your age"/>
-      <select id="dropdown">
+
+      <select id="second_dropdown">
         <option disabled>Select an option</option>
         <option value="Student">Student</option>
         <option value="Job">Full time job</option>
@@ -24,6 +25,8 @@
         <option value="Say">Prefer not to say</option>
         <option value="Other">Other</option>
       </select>
+
+
       <ul>
         <li>
           <input id='definitely' value='1' name='radio-buttons' type="radio" />
@@ -38,6 +41,15 @@
           <label for='notSure'>Not sure</label>
         </li>
       </ul>
+
+      <select id="dropdown">
+        <option disabled>Select an option</option>
+        <option value="Challenges">Challenges</option>
+        <option value="Projects">Projects</option>
+        <option value="Community">Community</option>
+        <option value="Source">Open source</option>
+
+      </select>
 
       <ul>
         <li>
@@ -85,6 +97,12 @@
           <label for="additional-coureses">Additional Courses</label>
         </li>
       </ul>
+      <label for="comment"> Any comments or suggestions?</label>
+      <textarea id="comment" placeholder="Enter your comment here...">
+        Enter your comment here...
+
+      </textarea>
+      <button id="submit" type="submit">Submit</button>
 
 
     </form>
